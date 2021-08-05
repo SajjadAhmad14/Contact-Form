@@ -217,8 +217,8 @@
   </main>
   <footer>
     <form class="form">
-      <div>
-        <h2 class="heading">Contact Me</h2>
+      <div class = "header">
+        <h2 class="heading">Contact Us</h2>
         <p class="paragraph">
           If you have an application you are interested in developing,<br />
           a feature that you need built or a project that needs coding. <br />
@@ -227,14 +227,14 @@
       </div>
       <div>
         <label for="name">
-          <input type="text" maxlength="30" name="name" id="user-name" placeholder="Please enter name here" />
+          <input type="text" maxlength="40" name="name" id="user-name" placeholder="Please enter name here" />
         </label>
         <label for="email">
-          <input type="email" name="email" id="user-email" placeholder="Please enter email here" />
+          <input type="text" name="email" id="user-email" placeholder="Please enter email here" />
         </label>
         <label for="note">
           <textarea
-            maxlength="500"
+            maxlength="400"
             name="note"
             id="note"
             cols="32"
@@ -242,6 +242,9 @@
             placeholder="Please write your message for me here"
           ></textarea>
         </label>
+        <div class = "btn-container">
+        <input type="submit" value="Get it touch" class="contact-btn" />
+      </div>
       </div>
     </form>
   </footer>

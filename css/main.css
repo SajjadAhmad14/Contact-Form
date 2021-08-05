@@ -326,13 +326,6 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-footer {
-  background-color: lightblue;
-  display: flex;
-  justify-content: center;
-  padding: 90px;
-}
-
 .form {
   outline: none;
   display: flex;
@@ -344,6 +337,13 @@ footer {
 
 .header {
   text-align: center;
+}
+
+footer {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  padding: 90px;
 }
 
 .heading {
@@ -364,11 +364,6 @@ footer {
   text-align: center;
 }
 
-.form label {
-  margin: 15px;
-  width: 50%;
-}
-
 .form label input,
 textarea {
   width: 100%;
@@ -378,9 +373,9 @@ textarea {
   border: 1px solid #cfd8dc;
 }
 
-.btn-container {
-  display: flex;
-  justify-content: flex-end;
+.form label {
+  margin: 15px;
+  width: 50%;
 }
 
 .contact-btn {
@@ -390,4 +385,9 @@ textarea {
   width: 140px;
   height: 48px;
   border: 1px solid #cfd8dc;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
 }
